@@ -1,5 +1,8 @@
 package ie.atu.usingiocanddi;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class UserService {
     private EmailService emailService;
 
